@@ -43,4 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem "letsrate", :git => "git://github.com/iammyr/letsrate.git"
 gem 'devise'
+

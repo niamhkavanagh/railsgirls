@@ -1,4 +1,6 @@
 Railsgirls::Application.routes.draw do
+  root :to => redirect('/places')
+
   resources :comments
 
   resources :places
