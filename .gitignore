@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore other unneeded files.
+database.yml
+# Ignore Rails documentation files
+doc/
+# Ignore Vim and Emacs swap files
+*.swp
+*~
+.project
